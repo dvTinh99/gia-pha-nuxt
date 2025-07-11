@@ -27,7 +27,7 @@ const stageSize = {
   width: window.innerWidth,
   height: window.innerHeight
 };
-const GAP = computed(() => stageSize.height / 20 * zoom)
+const GAP = computed(() => stageSize.height / 20)
 
 const zoom = ref(1)
 
